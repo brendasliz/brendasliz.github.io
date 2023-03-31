@@ -2,7 +2,8 @@
     display: flex;
     flex-direction: column;
     background-color: var(--secondary-color);
-    
+    margin-left: 4%;
+    margin-right: 4%;
     
 }
 
@@ -29,15 +30,17 @@
 }
 .experience-list {
     list-style: none;
-    padding: 0;
+    
     padding-right: 3%;
+    padding-left: 3%;
+    
 }
 
 
 .experience {
     padding: 25px;
     max-width: 500px;
-    margin: 0 auto;
+    
 
 }
 
@@ -60,6 +63,9 @@
         text-align: right;
         
     }
-   
+   .experiences {
+    margin-left: 0%;
+    margin-right: 0%;
+   }
 }
 

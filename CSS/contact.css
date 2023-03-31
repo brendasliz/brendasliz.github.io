@@ -4,6 +4,7 @@
     padding:25px;
     display: grid;
     gap: 25px;
+    width: 90%;
 }
 
 .contact p,
