@@ -1,0 +1,65 @@
+.experiences {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--secondary-color);
+    
+    
+}
+
+.experience-title {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+
+.experience-progress {
+    font-size: 14px;
+    font-weight: normal;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+    margin:10px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 0%;
+    
+}
+
+.exp{
+    font-weight: 700;
+}
+.experience-list {
+    list-style: none;
+    padding: 0;
+    padding-right: 3%;
+}
+
+
+.experience {
+    padding: 25px;
+    max-width: 500px;
+    margin: 0 auto;
+
+}
+
+@media (min-width: 950px) {
+    .experience-title {
+        font-size: 30px;
+    }
+    
+
+    .experience {
+        padding: 0;
+    }
+    
+    
+    .experience-progress {
+        font-size: 16px;
+        padding: 10px;
+        box-sizing: content-box;
+        box-shadow: 0 2px 0 var(--navbar-shadow-color);
+        text-align: right;
+        
+    }
+   
+}
+
